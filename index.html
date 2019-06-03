@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+
+    <title>Travello &mdash; Your all-in-one booking app</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <img src="img/logo.png" alt="Travello logo" class="logo__img">
+                <span class="logo__name">Travello</span>
+
+            </div>
+            <form action="#" class="search">
+                <input type="text" class="search__input" placeholder="Search hotels">
+                <button class="search__button">
+                    <svg class="search__icon">
+                        <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
+                    </svg>
+                </button>
+            </form>
+
+
+            <div class="user-nav">
+
+
+                <div class="user-nav__icon-box user-nav__hoverMenu">
+                    <svg class="user-nav__icon">
+                        <use xlink:href="img/sprite.svg#icon-bell"></use>
+                    </svg>
+                    <span class="user-nav__notification">6</span>
+
+                    <!--HOVERING NOTIFICATIONS MENU-->
+
+                    <div class="hoverMenu">
+                        <h2 class="hoverMenu__header">
+                            Notifications
+                        </h2>
+                        <ul class="hoverMenu__list">
+                            <!-- <a href="#" class="hoverMenu__link"> -->
+                            <li class="hoverMenu__item">
+                                <img src="img/user-4.jpg" alt="User 4" class="hoverMenu__avatar">
+                                <div class="hoverMenu__info">
+                                    <div class="hoverMenu__info-header">
+                                        <p class="hoverMenu__title">Leave your review</p>
+                                        <p class="hoverMenu__timestamp">
+                                            <span class="hoverMenu__time">21:53</span>
+                                            <span class="hoverMenu__date">Apr 14, 2016</span>
+                                        </p>
+                                    </div>
+                                    <p class="hoverMenu__content">Lorem ipsum dolor sit amet consectetur(...) </p>
+                                </div>
+                            </li>
+                            <!-- </a> -->
+
+                            <li class="hoverMenu__item">
+                                <img src="img/user-2.jpg" alt="User 2" class="hoverMenu__avatar">
+                                <div class="hoverMenu__info">
+                                    <div class="hoverMenu__info-header">
+                                        <p class="hoverMenu__title">Order Confirmation</p>
+                                        <p class="hoverMenu__timestamp">
+                                            <span class="hoverMenu__time">19:33</span>
+                                            <span class="hoverMenu__date">Mar 30, 2016</span>
+                                        </p>
+                                    </div>
+                                    <p class="hoverMenu__content">Nostrud exercitation ullamco laboris(...) </p>
+                                </div>
+                            </li>
+
+                            <li class="hoverMenu__item">
+                                <img src="img/user-6.jpg" alt="User 6" class="hoverMenu__avatar">
+                                <div class="hoverMenu__info">
+                                    <div class="hoverMenu__info-header">
+                                        <p class="hoverMenu__title">Sale is ending soon!</p>
+                                        <p class="hoverMenu__timestamp">
+                                            <span class="hoverMenu__time">15:35</span>
+                                            <span class="hoverMenu__date">Mar 20, 2016</span>
+                                        </p>
+                                    </div>
+                                    <p class="hoverMenu__content">Occaecat cupidatat non proidentr(...) </p>
+                                </div>
+                            </li>
+
+                            <li class="hoverMenu__item">
+                                <img src="img/user-6.jpg" alt="User 6" class="hoverMenu__avatar">
+                                <div class="hoverMenu__info">
+                                    <div class="hoverMenu__info-header">
+                                        <p class="hoverMenu__title">Special offer!</p>
+                                        <p class="hoverMenu__timestamp">
+                                            <span class="hoverMenu__time">20:03</span>
+                                            <span class="hoverMenu__date">Mar 12, 2016</span>
+                                        </p>
+                                    </div>
+                                    <p class="hoverMenu__content">Dolore eu fugiat nulla pariatur(...) </p>
+                                </div>
+                            </li>
+
+                            <li class="hoverMenu__item">
+                                <img src="img/user-a.jpg" alt="User a" class="hoverMenu__avatar">
+                                <div class="hoverMenu__info">
+                                    <div class="hoverMenu__info-header">
+                                        <p class="hoverMenu__title">Thank you!</p>
+                                        <p class="hoverMenu__timestamp">
+                                            <span class="hoverMenu__time">21:51</span>
+                                            <span class="hoverMenu__date">Mar 05, 2016</span>
+                                        </p>
+                                    </div>
+                                    <p class="hoverMenu__content">Duis aute irure dolor in(...) </p>
+                                </div>
+                            </li>
+
+                            <li class="hoverMenu__item">
+                                <img src="img/user-1.jpg" alt="User 1" class="hoverMenu__avatar">
+                                <div class="hoverMenu__info">
+                                    <div class="hoverMenu__info-header">
+                                        <p class="hoverMenu__title">Bargain!</p>
+                                        <p class="hoverMenu__timestamp">
+                                            <span class="hoverMenu__time">04:45</span>
+                                            <span class="hoverMenu__date">Feb 12, 2016</span>
+                                        </p>
+                                    </div>
+                                    <p class="hoverMenu__content">Incididunt ut labore et dolore magna aliqua(...) </p>
+                                </div>
+                            </li>
+                    </div>
+                </div>
+
+
+                <div class="user-nav__icon-box user-nav__hoverMenu">
+                    <svg class="user-nav__icon">
+                        <use xlink:href="img/sprite.svg#icon-chat"></use>
+                    </svg>
+                    <span class="user-nav__notification">3</span>
+
+                    <!--HOVERING MESSAGES MENU-->
+
+                    <div class="hoverMenu">
+                        <h2 class="hoverMenu__header">
+                            Messages
+                        </h2>
+                        <ul class="hoverMenu__list">
+                            <!-- <a href="#" class="hoverMenu__link"> -->
+                            <li class="hoverMenu__item">
+
+                                <img src="img/user-4.jpg" alt="User 4" class="hoverMenu__avatar">
+                                <div class="hoverMenu__info">
+                                    <div class="hoverMenu__info-header">
+                                        <p class="hoverMenu__title">Nick Smith</p>
+                                        <p class="hoverMenu__timestamp">
+                                            <span class="hoverMenu__time">18:13</span>
+                                            <span class="hoverMenu__date">Apr 15, 2016</span>
+                                        </p>
+                                    </div>
+                                    <p class="hoverMenu__content">Lorem ipsum dolor sit amet consectetur(...) </p>
+                                </div>
+                            </li>
+                            <!-- </a> -->
+
+                            <li class="hoverMenu__item">
+
+                                <img src="img/user-2.jpg" alt="User 2" class="hoverMenu__avatar">
+                                <div class="hoverMenu__info">
+                                    <div class="hoverMenu__info-header">
+                                        <p class="hoverMenu__title">Jen Hilman</p>
+                                        <p class="hoverMenu__timestamp">
+                                            <span class="hoverMenu__time">20:03</span>
+                                            <span class="hoverMenu__date">Apr 01, 2016</span>
+                                        </p>
+                                    </div>
+                                    <p class="hoverMenu__content">Lorem ipsum dolor sit amet consectetur(...) </p>
+                                </div>
+                            </li>
+
+                            <li class="hoverMenu__item">
+
+                                <img src="img/user-5.jpg" alt="User 5" class="hoverMenu__avatar">
+                                <div class="hoverMenu__info">
+                                    <div class="hoverMenu__info-header">
+                                        <p class="hoverMenu__title">John Doe</p>
+                                        <p class="hoverMenu__timestamp">
+                                            <span class="hoverMenu__time">12:45</span>
+                                            <span class="hoverMenu__date">Mar 25, 2016</span>
+                                        </p>
+                                    </div>
+                                    <p class="hoverMenu__content">Lorem ipsum dolor sit amet consectetur(...) </p>
+                                </div>
+                            </li>
+                    </div>
+
+
+                </div>
+
+
+                <div class="user-nav__user user-nav__profile">
+                    <img src="img/user.jpg" alt="User photo" class="user-nav__user-photo">
+                    <span class="user-nav__user-name">Beaver</span>
+
+                    <!--HOVERING PROFILE MENU-->
+
+                    <div class="profile">
+                        <h2 class="profile__header">
+                            Profile
+                        </h2>
+                        <ul class="profile__list">
+                            <li class="profile__item">
+                                <a href="#" class="profile__link">
+                                    <svg class="profile__item-icon">
+                                        <use xlink:href="img/sprite.svg#icon-address-book"></use>
+                                    </svg>
+                                    <span>Account</span>
+                                </a>
+                            </li>
+                            <li class="profile__item">
+                                <a href="#" class="profile__link">
+                                    <svg class="profile__item-icon">
+                                        <use xlink:href="img/sprite.svg#icon-book"></use>
+                                    </svg>
+                                    <span>Bookings</span>
+                                </a>
+                            </li>
+                            <li class="profile__item">
+                                <a href="#" class="profile__link">
+                                    <svg class="profile__item-icon">
+                                        <use xlink:href="img/sprite.svg#icon-users"></use>
+                                    </svg>
+                                    <span>Friends</span>
+                                </a>
+                            </li>
+                            <li class="profile__item">
+                                <a href="#" class="profile__link">
+                                    <svg class="profile__item-icon">
+                                        <use xlink:href="img/sprite.svg#icon-clipboard"></use>
+                                    </svg>
+                                    <span>Reviews</span>
+                                </a>
+                            </li>
+                            <li class="profile__item">
+                                <a href="#" class="profile__link">
+                                    <svg class="profile__item-icon">
+                                        <use xlink:href="img/sprite.svg#icon-credit-card"></use>
+                                    </svg>
+                                    <span>Payment Method</span>
+                                </a>
+                            </li>
+                            <li class="profile__item">
+                                <a href="#" class="profile__link">
+                                    <svg class="profile__item-icon">
+                                        <use xlink:href="img/sprite.svg#icon-power-cord"></use>
+                                    </svg>
+                                    <span>Log out</span>
+                                </a>
+                            </li>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </header>
+
+        <div class="content">
+            <nav class="sidebar">
+                <ul class="side-nav">
+                    <li class="side-nav__item side-nav__item--active">
+                        <a href="" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="img/sprite.svg#icon-home"></use>
+                            </svg>
+                            <span>Hotel</span>
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="img/sprite.svg#icon-aircraft"></use>
+                            </svg>
+                            <span>Flight</span>
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="img/sprite.svg#icon-key"></use>
+                            </svg>
+                            <span>Car rental</span>
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="img/sprite.svg#icon-map"></use>
+                            </svg>
+                            <span>Tours</span>
+                        </a>
+                    </li>
+
+                </ul>
+                <div class="legal">
+                    &copy; 2019 by Travello. All rights reserved. Design by Jonas Schmedtmann. Fruition and improvements
+                    by Marek
+                    Marianowicz.
+                </div>
+            </nav>
+
+            <main class="hotel-view">
+                <div class="gallery">
+                    <figure class="gallery__item">
+                        <img src="img/hotel-1.jpg" alt="Photo of hotel 1" class="gallery__photo">
+                        <figcaption class="gallery__item-caption">Peace & quiet</figcaption>
+                    </figure>
+                    <figure class="gallery__item">
+                        <img src="img/hotel-2.jpg" alt="Photo of hotel 2" class="gallery__photo">
+                        <figcaption class="gallery__item-caption">Relax & SPA</figcaption>
+                    </figure>
+                    <figure class="gallery__item">
+                        <img src="img/hotel-3.jpg" alt="Photo of hotel 3" class="gallery__photo">
+                        <figcaption class="gallery__item-caption">Breathtaking views</figcaption>
+                    </figure>
+                </div>
+                <div class="overview">
+                    <h1 class="overview__heading">
+                        Hotel Transylvania
+                    </h1>
+                    <div class="overview__stars">
+                        <svg class="overview__icon-star">
+                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                        </svg>
+                        <svg class="overview__icon-star">
+                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                        </svg>
+                        <svg class="overview__icon-star">
+                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                        </svg>
+                        <svg class="overview__icon-star">
+                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                        </svg>
+                        <svg class="overview__icon-star">
+                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                        </svg>
+                    </div>
+                    <div class="overview__location">
+                        <svg class="overview__icon-location">
+                            <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+                        </svg>
+                        <button class="btn-inline">Transylvania, Romania</button>
+                    </div>
+                    <div class="overview__rating">
+                        <div class="overview__rating-average">9.3</div>
+                        <div class="overview__rating-count">495 votes</div>
+                    </div>
+
+                </div>
+                <div class="detail">
+                    <div class="description">
+                        <p class="paragraph">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi obcaecati molestiae
+                            eligendi minus veniam maxime voluptas temporibus exercitationem, adipisci totam asperiores
+                            est quae laudantium atque dicta officia aperiam id. Ipsam!
+                        </p>
+                        <p class="paragraph">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni deserunt minus temporibus
+                            quam
+                            pariatur accusamus optio consequatur neque saepe fuga!
+                        </p>
+                        <ul class="list">
+                            <li class="list__item">Close to the beach</li>
+                            <li class="list__item">Breakfast included</li>
+                            <li class="list__item">Free airport shuttle</li>
+                            <li class="list__item">Free wifi in all rooms</li>
+                            <li class="list__item">Air conditioning and heating</li>
+                            <li class="list__item">Pets allowed</li>
+                            <li class="list__item">We speak all languages</li>
+                            <li class="list__item">Perfect for families</li>
+                        </ul>
+                        <div class="recommend">
+                            <p class="recommend__count">
+                                Lucy and 3 other friends recommend this hotel.
+                            </p>
+                            <div class="recommend__friends">
+                                <img src="img/user-3.jpg" alt="Friend 1" class="recommend__photo">
+                                <img src="img/user-4.jpg" alt="Friend 2" class="recommend__photo">
+                                <img src="img/user-5.jpg" alt="Friend 3" class="recommend__photo">
+                                <img src="img/user-6.jpg" alt="Friend 4" class="recommend__photo">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="user-reviews">
+                        <figure class="review">
+                            <blockquote class="review__text">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est doloribus itaque, facere
+                                quia
+                                alias ut!
+                            </blockquote>
+                            <figcaption class="review__user">
+                                <img src="img/user-1.jpg" alt="User 1" class="review__photo">
+                                <div class="review__user-box">
+                                    <p class="review__user-name">Nick Smith</p>
+                                    <p class="review__user-date">Apr 15th, 2016</p>
+                                </div>
+                                <div class="review__rating">8.8</div>
+                            </figcaption>
+                        </figure>
+
+                        <figure class="review">
+                            <blockquote class="review__text">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est doloribus itaque, facere
+                                quia
+                                alias ut!
+                            </blockquote>
+                            <figcaption class="review__user">
+                                <img src="img/user-2.jpg" alt="User 1" class="review__photo">
+                                <div class="review__user-box">
+                                    <p class="review__user-name">Mary Rose</p>
+                                    <p class="review__user-date">Feb 1st, 2018</p>
+                                </div>
+                                <div class="review__rating">9.5</div>
+                            </figcaption>
+                        </figure>
+
+                        <button class="btn-inline">Show all <span>&rarr;</span></button>
+                    </div>
+
+
+                </div>
+                <div class="cta">
+                    <h2 class="cta__book-now">Good news! We have 4 free rooms for your selected dates!</h2>
+                    <button class="btn">
+                        <span class="btn__visible">Book now</span>
+                        <span class="btn__invisible">Only 4 rooms left</span>
+                    </button>
+                </div>
+            </main>
+        </div>
+    </div>
+</body>
+
+</html>
